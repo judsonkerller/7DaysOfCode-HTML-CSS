@@ -1,0 +1,78 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: var(--bg-pagina);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-logotipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-logotipo-img {
+  padding-right: 0.5rem;
+}
+
+.navbar-logotipo-txt {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar-lista {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10rem;
+}
+
+.navbar-lista-itens {
+  padding: 2rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar-lista-itens a {
+  text-decoration: none;
+  color: var(--textos-normais);
+}
+
+.navbar-botoes {
+  cursor: default;
+}
+
+.navbar-botoes-entrar {
+  text-decoration: none;
+  border: none;
+  color: var(--textos-normais);
+  background-color: var(--bg-pagina);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.navbar-botoes-cadastrar {
+  text-decoration: none;
+  border: none;
+  color: var(--bg-pagina);
+  background-color: var(--vinho);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
