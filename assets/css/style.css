@@ -1,3 +1,11 @@
+:root {
+  --bg-pagina: #ffffff;
+  --nome-empresa: #3a404e;
+  --textos-normais: #667085;
+  --textos-titulos: #101828;
+  --vinho: #8e2424;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -75,4 +83,80 @@ body {
   border-radius: 8px;
   margin-left: 1rem;
   cursor: pointer;
+}
+
+/*----------------------*/
+
+.sobre {
+  padding: 7rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sobre-span {
+  font-weight: 600;
+  font-style: 16px;
+  color: var(--vinho);
+}
+
+.sobre-titulo {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: var(--textos-titulos);
+}
+
+.sobre-texto {
+  max-width: 50%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: var(--textos-normais);
+  text-align: center;
+}
+
+/*----------------------*/
+
+.metricas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  grid-column-gap: 50px;
+  padding: 4rem;
+}
+
+.metricas-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 6rem;
+}
+
+.metric4 {
+  margin-right: 6rem;
+}
+
+.metricas-numero {
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--vinho);
+  line-height: 72px;
+}
+
+.metricas-titulo {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--textos-titulos);
+  line-height: 28px;
+}
+
+.metricas-texto {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 280px;
 }
